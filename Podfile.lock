@@ -1,0 +1,166 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - EasyToast (2.0.2)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKShareKit (~> 4.15)
+  - FBSDKCoreKit (4.23.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.23.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.23.0):
+    - FBSDKCoreKit
+  - Firebase/Core (4.0.0):
+    - FirebaseAnalytics (= 4.0.0)
+    - FirebaseCore (= 4.0.0)
+  - Firebase/Performance (4.0.0):
+    - Firebase/Core
+    - FirebasePerformance (= 1.0.0)
+  - Firebase/RemoteConfig (4.0.0):
+    - Firebase/Core
+    - FirebaseRemoteConfig (= 2.0.0)
+  - FirebaseAnalytics (4.0.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (4.0.0):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - FirebasePerformance (1.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.1)
+  - FirebaseRemoteConfig (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FLAnimatedImage (1.0.12)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GradientView (2.2.0)
+  - GTMSessionFetcher/Core (1.1.10)
+  - HexColors (5.0.1)
+  - IGRPhotoTweaks (1.0.6)
+  - iTunesSearchAPI (0.4)
+  - Kingfisher (3.9.1)
+  - Locksmith (3.0.0)
+  - MGSwipeTableCell (1.5.6)
+  - NSTimer-Blocks (0.0.1)
+  - ObjectMapper (2.2.7)
+  - ObjectMapper+Realm (0.3):
+    - ObjectMapper
+    - RealmSwift
+  - Protobuf (3.3.0)
+  - Realm (2.7.0):
+    - Realm/Headers (= 2.7.0)
+  - Realm/Headers (2.7.0)
+  - RealmSwift (2.7.0):
+    - Realm (= 2.7.0)
+  - SDWebImage/Core (4.0.0)
+  - SDWebImage/GIF (4.0.0):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - SnapKit (3.2.0)
+  - Swifter (1.3.3)
+  - SwiftHTTP (2.0.2)
+  - TPKeyboardAvoiding (1.3.1)
+  - UITextView+Placeholder (1.2.0)
+  - WebKitPlus (0.2.0)
+  - XCGLogger (4.0.0):
+    - XCGLogger/Core (= 4.0.0)
+  - XCGLogger/Core (4.0.0)
+
+DEPENDENCIES:
+  - EasyToast (~> 2.0)
+  - FacebookCore (~> 0.2)
+  - FacebookLogin (~> 0.2)
+  - FacebookShare (~> 0.2)
+  - Firebase/Performance
+  - Firebase/RemoteConfig
+  - FLAnimatedImage
+  - GradientView (~> 2.2)
+  - HexColors (~> 5.0)
+  - IGRPhotoTweaks (~> 1.0.0)
+  - iTunesSearchAPI (~> 0.3)
+  - Kingfisher (~> 3.6)
+  - Locksmith (~> 3.0)
+  - MGSwipeTableCell (~> 1.5)
+  - NSTimer-Blocks
+  - ObjectMapper (~> 2.2)
+  - ObjectMapper+Realm (~> 0.2)
+  - RealmSwift (~> 2.5)
+  - SDWebImage/GIF
+  - SnapKit (~> 3.2)
+  - Swifter
+  - SwiftHTTP (~> 2.0)
+  - TPKeyboardAvoiding (~> 1.3)
+  - UITextView+Placeholder (~> 1.2)
+  - WebKitPlus (~> 0.2)
+  - XCGLogger (~> 4.0)
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  EasyToast: 2844de2158fe8d2313c6de81b5a858a909d82532
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FacebookShare: 8e9ee8ea06505e6a1d3d719b0cc63e840fb8aaeb
+  FBSDKCoreKit: d7829f5a69901cd7296105328e4c3c3fc7da6518
+  FBSDKLoginKit: 6b92bd65f319d669d2b0730e49db495ef1660566
+  FBSDKShareKit: 65751c3b9937ab9d594e6c37611ecc115ceeb448
+  Firebase: 284eea779b73fdff309791817da7c68bff8dd572
+  FirebaseAnalytics: 6f08e746f7d66f5452931bc2e822b5df9c66b64a
+  FirebaseCore: 85ad466044c2f013cdb167f85d426d15b128114a
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  FirebasePerformance: 77cff325f2adfb20fc03fec32b9811870c1d5130
+  FirebaseRemoteConfig: b1bde8c572a1ca13558b5b179f4563cb877aa34b
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GradientView: a5397174594f158dc1511127f2004ec25c9d2300
+  GTMSessionFetcher: 30d874b96d0d76028f61fbd122801e3f030d47db
+  HexColors: d642e696de77aa919584012e80bf62a4b099cee1
+  IGRPhotoTweaks: 0fe8db32622987a5ece2b933e1121a0a397c99be
+  iTunesSearchAPI: 4d144c370591615cd6ce2c45848105ce23cf37b0
+  Kingfisher: 6729a0baaa458245bfb8cd5a1296c71c10d6eb6c
+  Locksmith: 310b4cc5031af5728bf4db5d4de547a5100c6a3b
+  MGSwipeTableCell: 616700eb0ffd1c611ba909066cb7fd739790a0a7
+  NSTimer-Blocks: 88faf9aef5f250ead087f3f67ae642517083bf36
+  ObjectMapper: 65abcfd9a61cf7396cbd14a4fb22fddfcc46577e
+  ObjectMapper+Realm: 98992926f775a4fdf1c025541b97c78119f15b8a
+  Protobuf: d582fecf68201eac3d79ed61369ef45734394b9c
+  Realm: 07e5d3a9e0e41d65fd5f9f05150ed6295d0f093b
+  RealmSwift: 6d06425d3900c86473c4f323bf6949b43fca22bc
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  Swifter: 3fef6ec31449a8e3a29cf8551a9fe23485f15bc0
+  SwiftHTTP: faa1a5f7670568ffc9361898229dbe84a6088468
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+  WebKitPlus: a38d060e6da06b7c19bf7a1a1a907e0d9ebc9bc0
+  XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
+
+PODFILE CHECKSUM: 24c24034da1e719708c2b1db50051e663046e7b8
+
+COCOAPODS: 1.2.1
