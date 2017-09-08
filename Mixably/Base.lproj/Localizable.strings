@@ -1,0 +1,116 @@
+/*
+Localizable.strings
+Mixably
+     
+Created by Pavel on 23/01/17.
+Copyright © 2017 Mixably. All rights reserved.
+*/
+
+"use_as_guest" = "USE AS GUEST";
+"login_with_facebook" = "Log in with Facebook";
+"terms_privacy" = "By signing in, you agree to our\nTerms & Conditions and Privacy Policy.";
+"terms_conditions" = "Terms & conditions";
+"privacy_policy" = "Privacy Policy";
+"tutorial_hint_facebook_login" = "The coolest music is only one tap away. Start bumping with the community.";
+"connect_music_provider" = "Connect with your music provider to get the full experience.";
+"connect_mssp" = "To create your playlist connect to a music service first 🤗";
+"connect" = "Connect";
+"use_preview_mode" = "USE PREVIEW MODE";
+"got_it" = "GOT IT";
+"tutorial_hint" = "Swipe UP or DOWN to switch playlist.";
+"choose_later" = "CHOOSE LATER";
+"unique_username" = "unique username";
+"next" = "NEXT";
+"invalid_symbols" = "Username has invalid format";
+"invalid_username" = "USERNAME ALREADY TAKEN";
+"too_many_characters" = "Too many characters";
+"short_title_error" = "Title too short";
+"create_playlist" = "Create Playlist";
+"cover_image" = "Cover Image";
+"socialize" = "Socialize";
+"search_playlist_people" = "Search to add tracks";
+"select_cover_image" = "Select a cover image for your playlist";
+"playlist_title" = "Playlist Title";
+"too_long_title" = "Title is too long";
+"new_playlist" = "New Playlist";
+"playlist_description" = "Playlist Description";
+"add_tags" = "Add Tags";
+"horraaay" = "Lit!";
+"playlist_created" = "Playlist created. Keep bumping awesome music!";
+"public" = "Public";
+"save_to_spotify" = "Spotify";
+"share_your_playlist" = "Share your playlist";
+"save_playlist" = "Save playlist";
+"facebook" = "Facebook";
+"twitter" = "Twitter";
+"instagram" = "Instagram";
+"everyone_can_see_it" = "Everyone can see it";
+"show_all" = "Show More";
+"show_less" = "Show Less";
+"some_words_for_search" = "Some words for search";
+"playlist_description" = "Playlist Description";
+"select_all" = "Select All";
+"deselect_all" = "Deselect All";
+"over_limit" = "Over Limit";
+"view_playlist" = "VIEW PLAYLIST";
+"invalidate_username" = "Invalidate Username";
+"trending_now" = "Trending Now";
+"preview_mode" = "Preview";
+"preview_only" = "Preview Only";
+"preview_is_loading" = "Preview is loading";
+"create_playlist_spotify_error_title" = "Connect to Spotify";
+"create_playlist_spotify_error" = "Please connect to Spotify to create playlists in ";
+"report_user" = "Report a user";
+"hide_playlist" = "Hide a playlist";
+"report_playlist" = "Report a playlist";
+"buy_ticket" = "Buy Ticket";
+"buy_ticket" = "Buy Ticket";
+"stay_social" = "Stay Social";
+"stay_social_message" = "Too bad! Having a profile requires an account. Login to enjoy the most out of Bump.";
+
+// Settings
+"settings" = "Settings";
+"contact_our_team" = "Contact Our Team";
+"report_bug" = "Report a bug";
+"suggest_ideas" = "Suggest ideas";
+"sign_out" = "Sign out";
+
+//Tutorial
+"welcome_to_bump" = "Welcome to bump!";
+"got_it" = "Got it";
+"lit" = "Lit!🔥";
+"create_first_playlist" = "Create your first playlist";
+"feed_tutorial_alert" = "Swipe up to discover a new playlist";
+"like_tutorial_alert" = "You just liked your first playlist!";
+"create_playlist_tutorial_alert" = "Search for tracks to add, then choose your cover and you'll be ready to bump!";
+
+//Contact
+"contact_our_team" = "Contact our team";
+"contact_our_team_message" = "You want to send feedback or just show us some love? Drop us a line, we’ll get back to you ASAP!";
+"message_sent" = "Message sent!🔥";
+"message_sent_info" = "We'll get back to you ASAP";
+"message_error_title" = "Uh oh! Message not sent🤔";
+"message_error_info" = "Dust yourself off and try again later🤸";
+"report_bug_message" = "You want to report a bug? Drop us a line, we’ll get back to you ASAP!";
+"send_report" = "Send Report";
+"suggest_ideas_title" = "Suggest ideas";
+"suggest_ideas_info" = "You want to suggest a feature? Drop us a line, we’ll get back to you ASAP!";
+
+//Other alerts
+"user_is_reported_title" = "User is reported";
+"user_is_reported_message" = "We have received your report 😕";
+"playlist_is_reported_title" = "Playlist was reported";
+"playlist_is_reported_message" = "Thank you for reporting";
+"playlist_is_hidden_title" = "Playlist is hidden";
+"playlist_is_hidden_message" = "If you find inappropriate content please report it";
+"http_error_title" = "Something went wrong";
+"http_error_message" = "Please try again later";
+"network_error_title" = "No internet connection 🚨";
+"network_error_message" = "Please connect to the network";
+"playing_on_another_device_title" = "Your Spotify account is being used on another device.";
+"playing_on_another_device_message" = "Play music on this device?";
+"cancel" = "Cancel";
+"play_here" = "Play here";
+"preview_is_not_available" = "Preview is not available";
+"some_tracks_have_no_preview" = "Some tracks have no preview.";
+
