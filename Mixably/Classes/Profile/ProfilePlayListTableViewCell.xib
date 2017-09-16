@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MIProfilePlayListTableViewCell" customModule="Mixably" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="86.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J1j-Vh-uMK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="86.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WB6-f5-eVs">
+                                <rect key="frame" x="20" y="18" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="dv5-Fh-CCI"/>
+                                    <constraint firstAttribute="width" secondItem="WB6-f5-eVs" secondAttribute="height" multiplier="1:1" id="nxj-tX-VwO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlayButton" translatesAutoresizingMaskIntoConstraints="NO" id="3NA-mA-lP7">
+                                <rect key="frame" x="39" y="35" width="13" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="13" id="ESy-AF-632"/>
+                                    <constraint firstAttribute="height" constant="16" id="Xfo-ja-oVC"/>
+                                </constraints>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6t-uX-Erl">
+                                <rect key="frame" x="81" y="17" width="40" height="21.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="rNN-Xj-FhW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="1.5k" image="ic_white_heart">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjj-0Q-d8i">
+                                <rect key="frame" x="129" y="18.5" width="40" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="200" image="ic_white_comment">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKq-Bl-rWN">
+                                <rect key="frame" x="129" y="17.5" width="40" height="21.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="1.5k" image="ic_white_play">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update of current faves" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLS-cA-Eps">
+                                <rect key="frame" x="81" y="42.5" width="219" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yLS-cA-Eps" firstAttribute="top" secondItem="h6t-uX-Erl" secondAttribute="bottom" constant="4" id="3UY-6P-blM"/>
+                            <constraint firstItem="AKq-Bl-rWN" firstAttribute="width" secondItem="h6t-uX-Erl" secondAttribute="width" id="7ZU-a0-NVe"/>
+                            <constraint firstItem="WB6-f5-eVs" firstAttribute="centerY" secondItem="J1j-Vh-uMK" secondAttribute="centerY" id="NS4-wL-5bT"/>
+                            <constraint firstItem="yLS-cA-Eps" firstAttribute="leading" secondItem="h6t-uX-Erl" secondAttribute="leading" id="PzZ-MD-thm"/>
+                            <constraint firstAttribute="bottom" secondItem="yLS-cA-Eps" secondAttribute="bottom" constant="20" id="Sj2-EE-V86"/>
+                            <constraint firstItem="WB6-f5-eVs" firstAttribute="leading" secondItem="J1j-Vh-uMK" secondAttribute="leading" constant="20" id="VKo-IN-GoX"/>
+                            <constraint firstItem="h6t-uX-Erl" firstAttribute="leading" secondItem="WB6-f5-eVs" secondAttribute="trailing" constant="11" id="XXK-wI-b81"/>
+                            <constraint firstItem="AKq-Bl-rWN" firstAttribute="height" secondItem="h6t-uX-Erl" secondAttribute="height" id="XYI-h1-3XA"/>
+                            <constraint firstItem="3NA-mA-lP7" firstAttribute="centerX" secondItem="WB6-f5-eVs" secondAttribute="centerX" id="ZOb-Dq-zbs"/>
+                            <constraint firstItem="gjj-0Q-d8i" firstAttribute="centerY" secondItem="h6t-uX-Erl" secondAttribute="centerY" id="bFt-VP-r8i"/>
+                            <constraint firstItem="gjj-0Q-d8i" firstAttribute="leading" secondItem="h6t-uX-Erl" secondAttribute="trailing" constant="8" id="cOt-nv-Pcx"/>
+                            <constraint firstItem="h6t-uX-Erl" firstAttribute="top" secondItem="J1j-Vh-uMK" secondAttribute="top" constant="17" id="hor-6Z-ACh"/>
+                            <constraint firstAttribute="trailing" secondItem="yLS-cA-Eps" secondAttribute="trailing" constant="20" id="k5J-Pw-FMu"/>
+                            <constraint firstItem="AKq-Bl-rWN" firstAttribute="leading" secondItem="h6t-uX-Erl" secondAttribute="trailing" constant="8" id="nGa-Er-Srx"/>
+                            <constraint firstItem="3NA-mA-lP7" firstAttribute="centerY" secondItem="WB6-f5-eVs" secondAttribute="centerY" id="u7J-1f-2M5"/>
+                            <constraint firstItem="AKq-Bl-rWN" firstAttribute="centerY" secondItem="gjj-0Q-d8i" secondAttribute="centerY" id="xGu-7q-Iqc"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MZc-Ce-wqs">
+                        <rect key="frame" x="81" y="85.5" width="219" height="1"/>
+                        <color key="backgroundColor" red="0.52156862745098043" green="0.52156862745098043" blue="0.52156862745098043" alpha="0.27131932218309857" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="v48-9u-gDl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="MZc-Ce-wqs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="73" id="CXg-2a-yQS"/>
+                    <constraint firstItem="J1j-Vh-uMK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ek3-I3-fXc"/>
+                    <constraint firstItem="J1j-Vh-uMK" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="HAd-oU-GvS"/>
+                    <constraint firstItem="J1j-Vh-uMK" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="TbM-G7-60I"/>
+                    <constraint firstItem="J1j-Vh-uMK" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="fWC-Nv-eAe"/>
+                    <constraint firstAttribute="bottom" secondItem="MZc-Ce-wqs" secondAttribute="bottom" id="l9w-Dj-3h2"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="MZc-Ce-wqs" secondAttribute="trailing" constant="12" id="nL9-Tu-U7o"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="contentBackView" destination="J1j-Vh-uMK" id="Kpc-L7-EEz"/>
+                <outlet property="imgPlayButton" destination="3NA-mA-lP7" id="rkj-t8-jZY"/>
+                <outlet property="imgThumb" destination="WB6-f5-eVs" id="Nff-uv-FUO"/>
+                <outlet property="trackName" destination="yLS-cA-Eps" id="u1K-q1-0zV"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="PlayButton" width="30" height="36"/>
+        <image name="ic_white_comment" width="13" height="13"/>
+        <image name="ic_white_heart" width="14" height="12"/>
+        <image name="ic_white_play" width="9" height="11"/>
+    </resources>
+</document>
